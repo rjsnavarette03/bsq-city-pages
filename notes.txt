@@ -1,0 +1,15 @@
+Using template.json as the base and west-virginia.md as the copy mapping reference, replace all West Virginia-specific content with the San Diego copy from copy/san-diego.md and save the output as output/san-diego.json.
+
+Do the same with these 4
+
+copy/alaska.md
+copy/colorado.md
+copy/connecticut.md
+copy/delaware.md
+
+Using template.json as the base and florida.md as the copy mapping reference, replace all Florida-specific content with the 4 State copy from copy/[state-name].md and save the output as output/[state-name].json.
+
+copy/alaska.md
+copy/colorado.md
+copy/connecticut.md
+copy/delaware.md

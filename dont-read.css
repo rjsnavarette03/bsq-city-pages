@@ -1,0 +1,46 @@
+.elementor-counter-title {
+    text-align: center;
+}
+.toc-anchor, #main-form {
+    scroll-margin-top: 106px;
+}
+.icon-heading .icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: #1a1464;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+}
+.icon-heading .icon svg {
+    width: 18px;
+    height: 18px;
+    fill: #fff;
+}
+.icon-heading-blue .icon-circle {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: #e8f6fc;
+    color: #21a2dc;
+    display: grid;
+    place-items: center;
+}
+.icon-heading-blue .icon-circle svg {
+    width: 18px;
+    height: 18px;
+}
+.toggle-card .e-n-accordion-item-title-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background: #1a1464;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+}
+.toggle-card-baby .e-n-accordion-item-title-icon {
+    background: #e8f6fc;
+}

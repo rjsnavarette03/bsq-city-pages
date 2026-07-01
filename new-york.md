@@ -116,11 +116,6 @@ WHATS_INCLUDED_BULLET_10: Coding audits and modifier compliance review aligned t
 WHATS_INCLUDED_BULLET_11: Monthly performance reporting with key performance indicator dashboards
 WHATS_INCLUDED_BULLET_12: HIPAA-compliant data handling and secure document exchange
 
-### WHAT SETS US APART (two-column)   [NOT ON NYC PAGE]
-# The san-diego "What Sets Us Apart" block (SETS_APART_HEADING, PARTNER_HANDLES_BULLET_1-8,
-# PRACTICE_PROVIDES_BULLET_1-8) does not appear on the live New York City page. On this page the
-# What's Included bullets are followed directly by the In-House vs. Partner comparison table.
-
 ### COMPARISON TABLE: In-House vs. Partner
 
 TABLE_HEADING: In-House Staff vs. Specialist Billing Partner
@@ -161,9 +156,6 @@ TABLE_ROW7_COL3: Percentage of collections, often 6%+
 
 ## OUR PROCESS SECTION
 
-# NYC renders a single 5-step timeline (step number + day label + heading + detail).
-# The san-diego compact "top step" summary row (PROCESS_TOP_STEP1-5) is NOT on this page,
-# so only the detailed step keys (PROCESS_BOTTOM_STEP*) are populated below.
 SECTION_ID: our-process
 PROCESS_HEADING: Our Process
 PROCESS_INTRO: We do not throw your practice into a database and call it a match. Our process is built around a real human review on every New York City request, which is the differentiator our team is most protective of.
@@ -323,32 +315,9 @@ WHO_CARD5_BODY: Behavioral health, primary care, cardiology, and physical therap
 
 ## COVERAGE AREAS SECTION
 
-# NOTE: The live NYC coverage section shows ONLY the intro paragraph below. There is no
-# visible city/neighborhood pill list and no disclaimer line on this page (san-diego has both).
-# COVERAGE_CITY_1-16 below are pulled from this page's own schema Organization.areaServed so the
-# template stays populated and consistent with san-diego's schema-reuse convention.
 SECTION_ID: coverage
 COVERAGE_HEADING: Coverage Areas
 COVERAGE_INTRO: Billing Service Quotes operates virtually and is HIPAA-compliant across all engagements, which means matched partners can serve any New York City zip code without a local office. Our team works with practices across all five boroughs, from Manhattan and Brooklyn to Queens, the Bronx, and Staten Island.
-
-COVERAGE_CITY_1: Manhattan
-COVERAGE_CITY_2: Brooklyn
-COVERAGE_CITY_3: Queens
-COVERAGE_CITY_4: The Bronx
-COVERAGE_CITY_5: Staten Island
-COVERAGE_CITY_6: Harlem
-COVERAGE_CITY_7: Upper East Side
-COVERAGE_CITY_8: Midtown Manhattan
-COVERAGE_CITY_9: Financial District
-COVERAGE_CITY_10: Long Island City
-COVERAGE_CITY_11: Flushing
-COVERAGE_CITY_12: Williamsburg
-COVERAGE_CITY_13: Astoria
-COVERAGE_CITY_14: Jamaica
-COVERAGE_CITY_15: Forest Hills
-COVERAGE_CITY_16: Park Slope
-
-# COVERAGE_DISCLAIMER: [NOT ON NYC PAGE - san-diego has a "neighborhood pages not yet live" line here]
 
 ---
 
@@ -396,8 +365,6 @@ WHY_CARD3_BODY: Our partner network includes billing companies experienced acros
 
 WHY_CARD4_HEADING: Equity in Access
 WHY_CARD4_BODY: Whether you are a solo practitioner in the Bronx or a multi-provider group in Midtown Manhattan, you get the same matching attention. We do not steer toward larger practices or bigger contracts.
-
-# WHY_INFO_HEADING / WHY_INFO_BODY: [NOT ON NYC PAGE - san-diego has a "Why [City] Practices Choose Us" callout here]
 
 WHY_CTA: Get a FREE Quote
 

@@ -1,6 +1,6 @@
 # CITY PAGE COPY REFERENCE
 # City: New York City, New York
-# Source: https://www.billingservicequotes.com/coverage-area/new-york/new-york-city
+# URL: https://www.billingservicequotes.com/coverage-area/new-york/new-york-city
 # Structure: LABEL: value. Keys stay constant across cities; only values change.
 
 ---

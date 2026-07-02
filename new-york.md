@@ -160,9 +160,6 @@ SECTION_ID: our-process
 PROCESS_HEADING: Our Process
 PROCESS_INTRO: We do not throw your practice into a database and call it a match. Our process is built around a real human review on every New York City request, which is the differentiator our team is most protective of.
 
-### QUICK STEP ROW   [NOT ON NYC PAGE]
-# PROCESS_TOP_STEP1-5 (compact heading + short text) do not appear on the live NYC page.
-
 PROCESS_BOTTOM_STEP1_LABEL: Day 1 to 2
 PROCESS_BOTTOM_STEP1_HEADING: Submit Your Request
 PROCESS_BOTTOM_STEP1_TEXT: You complete a short intake describing your specialty, practice size, electronic health record, payer mix, and current billing pain points. A team member at Billing Service Quotes reviews it personally.
@@ -185,46 +182,6 @@ PROCESS_BOTTOM_STEP5_TEXT: After you select a partner and onboard, you can come 
 
 PROCESS_WHAT_WE_NEED_TITLE: What We Need From You
 PROCESS_WHAT_WE_NEED: Completed intake form • Current monthly collections range • Current electronic health record or practice management system • Short summary of billing pain points • Point of contact for partner introductions.
-
----
-
-## MEDICAL BILLING SECTION (State Deep Dive)
-
-SECTION_ID: medical-billing
-WV_DEEPDIVE_HEADING: Our Medical Billing Partners
-WV_DEEPDIVE_INTRO: Medical billing in New York City has specific technical demands tied to a fragmented commercial market led by Empire BlueCross BlueShield (now Anthem Blue Cross and Blue Shield), EmblemHealth, and UnitedHealthcare, a high Medicaid Managed Care penetration, a large Medicare population, and New York's distinctive No-Fault and Workers' Compensation billing rules. Practices in Manhattan, Brooklyn, Queens, the Bronx, and Staten Island face a billing environment where specialist in-market expertise is the single most important determinant of revenue performance.
-
-WV_MEDICARE_HEADING: New York Medicare and National Government Services (Jurisdiction K)
-WV_MEDICARE_BODY: National Government Services is the Medicare Administrative Contractor for Jurisdiction K, which covers New York along with Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont. National Government Services publishes Local Coverage Determinations and coverage articles that govern medical necessity documentation across every specialty.
-
-WV_MEDICARE_BULLET_1: Local Coverage Determinations for cardiology, chronic disease management, orthopedics, and behavioral health require specific ICD-10 indications with supporting clinical documentation.
-WV_MEDICARE_BULLET_2: National Government Services has detailed documentation rules for evaluation and management visits under current American Medical Association guidelines, particularly for complex encounters and split or shared visits.
-WV_MEDICARE_BULLET_3: Modifier 25 and modifier 59 use is reviewed closely; incorrect application is a common denial driver across Jurisdiction K.
-WV_MEDICARE_BULLET_4: Provider Enrollment, Chain, and Ownership System status must be current for any provider billing Medicare. Lapses cause immediate denials.
-
-WV_MEDICAID_HEADING: New York Medicaid and Medicaid Managed Care
-WV_MEDICAID_BODY: New York Medicaid is administered by the New York State Department of Health and delivered largely through Medicaid Managed Care. Major managed care plans include Fidelis Care, Healthfirst, MetroPlus Health, UnitedHealthcare Community Plan, Molina Healthcare of New York, and Aetna Better Health of New York. Each plan has its own:
-
-WV_MEDICAID_BULLET_1: Provider portal and claim submission rules
-WV_MEDICAID_BULLET_2: Authorization requirements for specialty services
-WV_MEDICAID_BULLET_3: Timely filing limits (typically 90 to 120 days, but plan-specific)
-WV_MEDICAID_BULLET_4: Appeals process and reconsideration timelines
-
-WV_MEDICAID_COMMON_ISSUE: Common New York-specific issue: providers enrolled with New York State Medicaid through eMedNY but not separately credentialed with the Medicaid Managed Care plan covering their patient, causing systematic claim rejections. A specialist billing partner verifies plan-level enrollment before claims go out.
-
-WV_CODING_HEADING: Common New York-Specific Coding and Billing Issues
-WV_CODING_BULLET_1_LABEL: Fragmented commercial market:
-WV_CODING_BULLET_1_BODY: New York City's commercial market is split across Empire BlueCross BlueShield (now Anthem Blue Cross and Blue Shield), EmblemHealth, UnitedHealthcare and Oxford, Aetna, and Cigna, each with its own prior authorization rules and coverage policies. Practices without a billing partner fluent in each major payer's requirements leave recoverable revenue uncollected.
-WV_CODING_BULLET_2_LABEL: No-Fault motor vehicle billing:
-WV_CODING_BULLET_2_BODY: New York is a No-Fault auto insurance state. Providers treating motor vehicle accident patients must bill No-Fault carriers under New York Regulation 68, which imposes a strict 45-day submission window and a state fee schedule. Missed deadlines and fee-schedule errors are a frequent and avoidable source of lost revenue.
-WV_CODING_BULLET_3_LABEL: Workers' Compensation billing:
-WV_CODING_BULLET_3_BODY: New York Workers' Compensation claims are billed under the New York Workers' Compensation Board fee schedule, with its own documentation, authorization, and form requirements that differ from standard commercial and Medicare billing.
-WV_CODING_BULLET_4_LABEL: High Medicaid Managed Care concentration:
-WV_CODING_BULLET_4_BODY: New York City has a large Medicaid Managed Care population spread across many plans. A billing error on a Medicaid Managed Care claim does not get absorbed by commercial revenue; it hits the practice's cash flow directly, which makes plan-level enrollment and authorization accuracy essential.
-
-WV_CALLOUT_HEADING: 💰 Why This Matters for Your Bottom Line
-WV_CALLOUT_BODY: A New York City practice with average annual collections of $1.5M can lose $75,000 to $150,000 a year in preventable denials and underpayments when its billing partner does not actively work National Government Services Medicare, New York Medicaid Managed Care, and No-Fault and Workers' Compensation rules. The right partner pays for itself in a single quarter.
-WV_CALLOUT_BODY_BOLD: $75,000 to $150,000 a year
 
 ---
 
@@ -272,6 +229,46 @@ RCM_REPORTING_BULLET_6: First-pass resolution rate
 RCM_REPORTING_CLOSING: These dashboards turn the revenue cycle from a black box into a managed process. Practices that review the reports monthly catch payer trends early and protect against silent reimbursement erosion.
 
 RCM_CTA: Get matched with a revenue cycle specialist for your practice. Free quote in 30 minutes →
+
+---
+
+## MEDICAL BILLING SECTION
+
+SECTION_ID: medical-billing
+WV_DEEPDIVE_HEADING: Our Medical Billing Partners
+WV_DEEPDIVE_INTRO: Medical billing in New York City has specific technical demands tied to a fragmented commercial market led by Empire BlueCross BlueShield (now Anthem Blue Cross and Blue Shield), EmblemHealth, and UnitedHealthcare, a high Medicaid Managed Care penetration, a large Medicare population, and New York's distinctive No-Fault and Workers' Compensation billing rules. Practices in Manhattan, Brooklyn, Queens, the Bronx, and Staten Island face a billing environment where specialist in-market expertise is the single most important determinant of revenue performance.
+
+WV_MEDICARE_HEADING: New York Medicare and National Government Services (Jurisdiction K)
+WV_MEDICARE_BODY: National Government Services is the Medicare Administrative Contractor for Jurisdiction K, which covers New York along with Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont. National Government Services publishes Local Coverage Determinations and coverage articles that govern medical necessity documentation across every specialty.
+
+WV_MEDICARE_BULLET_1: Local Coverage Determinations for cardiology, chronic disease management, orthopedics, and behavioral health require specific ICD-10 indications with supporting clinical documentation.
+WV_MEDICARE_BULLET_2: National Government Services has detailed documentation rules for evaluation and management visits under current American Medical Association guidelines, particularly for complex encounters and split or shared visits.
+WV_MEDICARE_BULLET_3: Modifier 25 and modifier 59 use is reviewed closely; incorrect application is a common denial driver across Jurisdiction K.
+WV_MEDICARE_BULLET_4: Provider Enrollment, Chain, and Ownership System status must be current for any provider billing Medicare. Lapses cause immediate denials.
+
+WV_MEDICAID_HEADING: New York Medicaid and Medicaid Managed Care
+WV_MEDICAID_BODY: New York Medicaid is administered by the New York State Department of Health and delivered largely through Medicaid Managed Care. Major managed care plans include Fidelis Care, Healthfirst, MetroPlus Health, UnitedHealthcare Community Plan, Molina Healthcare of New York, and Aetna Better Health of New York. Each plan has its own:
+
+WV_MEDICAID_BULLET_1: Provider portal and claim submission rules
+WV_MEDICAID_BULLET_2: Authorization requirements for specialty services
+WV_MEDICAID_BULLET_3: Timely filing limits (typically 90 to 120 days, but plan-specific)
+WV_MEDICAID_BULLET_4: Appeals process and reconsideration timelines
+
+WV_MEDICAID_COMMON_ISSUE: Common New York-specific issue: providers enrolled with New York State Medicaid through eMedNY but not separately credentialed with the Medicaid Managed Care plan covering their patient, causing systematic claim rejections. A specialist billing partner verifies plan-level enrollment before claims go out.
+
+WV_CODING_HEADING: Common New York-Specific Coding and Billing Issues
+WV_CODING_BULLET_1_LABEL: Fragmented commercial market:
+WV_CODING_BULLET_1_BODY: New York City's commercial market is split across Empire BlueCross BlueShield (now Anthem Blue Cross and Blue Shield), EmblemHealth, UnitedHealthcare and Oxford, Aetna, and Cigna, each with its own prior authorization rules and coverage policies. Practices without a billing partner fluent in each major payer's requirements leave recoverable revenue uncollected.
+WV_CODING_BULLET_2_LABEL: No-Fault motor vehicle billing:
+WV_CODING_BULLET_2_BODY: New York is a No-Fault auto insurance state. Providers treating motor vehicle accident patients must bill No-Fault carriers under New York Regulation 68, which imposes a strict 45-day submission window and a state fee schedule. Missed deadlines and fee-schedule errors are a frequent and avoidable source of lost revenue.
+WV_CODING_BULLET_3_LABEL: Workers' Compensation billing:
+WV_CODING_BULLET_3_BODY: New York Workers' Compensation claims are billed under the New York Workers' Compensation Board fee schedule, with its own documentation, authorization, and form requirements that differ from standard commercial and Medicare billing.
+WV_CODING_BULLET_4_LABEL: High Medicaid Managed Care concentration:
+WV_CODING_BULLET_4_BODY: New York City has a large Medicaid Managed Care population spread across many plans. A billing error on a Medicaid Managed Care claim does not get absorbed by commercial revenue; it hits the practice's cash flow directly, which makes plan-level enrollment and authorization accuracy essential.
+
+WV_CALLOUT_HEADING: 💰 Why This Matters for Your Bottom Line
+WV_CALLOUT_BODY: A New York City practice with average annual collections of $1.5M can lose $75,000 to $150,000 a year in preventable denials and underpayments when its billing partner does not actively work National Government Services Medicare, New York Medicaid Managed Care, and No-Fault and Workers' Compensation rules. The right partner pays for itself in a single quarter.
+WV_CALLOUT_BODY_BOLD: $75,000 to $150,000 a year
 
 ---
 
@@ -422,8 +419,8 @@ BOTTOM_CTA_BUTTON: Get a FREE Quote
 # The city entries in Organization.areaServed reuse COVERAGE_CITY_1 through COVERAGE_CITY_16
 # above (the schema also includes a State entry, "New York").
 
-SCHEMA_STATE_NAME: New York City
-SCHEMA_STATE_SLUG: new-york-city
+SCHEMA_CITY_NAME: New York City
+SCHEMA_CITY_SLUG: new-york-city
 SCHEMA_AREASERVED_STATE: New York
 
 SCHEMA_ORG_DESCRIPTION: Free medical billing company matching service connecting New York City healthcare providers with vetted billing partners experienced in National Government Services Medicare, New York Medicaid Managed Care, and New York commercial payer billing.
@@ -441,5 +438,5 @@ SCHEMA_HOWTO_NAME: How to Get Matched with Medical Billing Services in New York
 SCHEMA_HOWTO_DESCRIPTION: The Billing Service Quotes matching process for New York City medical practices, from initial request to partner selection.
 SCHEMA_HOWTO_STEP2_TEXT: Our team narrows the partner pool to billing companies with verified New York experience, including National Government Services Medicare, New York Medicaid Managed Care, and your specialty. We vet for fit, not just availability.
 
-SCHEMA_BREADCRUMB_STATE_NAME: Free Quotes For Medical Billing Companies In New York
+SCHEMA_BREADCRUMB_CITY_NAME: Free Quotes For Medical Billing Companies In New York
 SCHEMA_BREADCRUMB_NAME: Get Free Quotes For Medical Billing Services in New York City
